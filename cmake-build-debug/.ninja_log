@@ -1,0 +1,6 @@
+# ninja log v5
+13	573	7262787393776534	CMakeFiles/BankingSystemExample.dir/Validator.cpp.obj	7f3ee1c3b3618f49
+7	1695	7262804524009986	CMakeFiles/BankingSystemExample.dir/main.cpp.obj	d082f3ad1c3297d5
+1695	1996	7262804526970321	BankingSystemExample.exe	2e13b7618806fccd
+11	833	7262801505749409	CMakeFiles/BankingSystemExample.dir/ClientOperations.cpp.obj	9f775536f752888
+14	1194	7262804519010346	CMakeFiles/BankingSystemExample.dir/CreditOperations.cpp.obj	2315b622386fb7ef
