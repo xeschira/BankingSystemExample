@@ -4,42 +4,53 @@
 
 ## Overview
 
-This C++ project represents a Banking Management System simulation. It consists of several header and source files, each serving a specific purpose within the program.
+This C++ project is a Banking Management System simulation, offering various functionalities related to user accounts, transactions, and financial operations.
 
 ## Project Structure
 
-### Header Files
+### Default Data
 
-1. **MainStructs.h**: Defines main data structures used in the program, such as `Sube`, `KisiselBilgiler`, `HesapBilgileri`, `HesapHareketi`, `Kredi`, and `Fatura`.
+The program initializes with default data representing clients, accounts, transactions, loans, and invoices. This data serves as a sample for testing and demonstrating the program's capabilities.
 
-2. **Validator.h**: Includes the `checkExistence` function for input validation, ensuring the existence of a value in a vector.
+### Functions
 
-3. **ClientOperations.h**: Contains functions related to user operations, including `CreateNewClient`, `calculateCreditRisk`, `listAllUsers`, and `withdrawDeposit`.
+#### 1. **CreateNewClient**
+- Functionality: Allows the addition of a new client to the system with personalized details.
+- Usage: Select option 5 from the menu, provide the required information, and a new client will be added.
 
-4. **CurrencyConversion.h**: Includes the `currencyConversion` function for currency conversion operations.
+#### 2. **WithdrawDeposit**
+- Functionality: Enables users to withdraw or deposit money into their accounts.
+- Usage: Select option 1, enter the ID Number, and specify the amount to withdraw (negative) or deposit (positive).
 
-5. **SearchForIdNumber.h**: Holds the `SearchForIdNumber` function for searching a user with a specific ID Number.
+#### 3. **SearchForIdNumber**
+- Functionality: Searches for a user based on their ID Number and displays their personal and financial information.
+- Usage: Select option 2, enter the ID Number, and the program will display the relevant details.
 
-### Source Files
+#### 4. **ListAllUsers**
+- Functionality: Lists all users with their names, surnames, and ID Numbers.
+- Usage: Select option 3, and the program will display a list of all registered users.
 
-1. **Main.cpp**: The main application file managing program initiation and user interface. It provides a menu-driven interface for users to perform various banking operations.
+#### 5. **CalculateCreditRisk**
+- Functionality: Assesses the credit risk for a user based on their existing loans and financial information.
+- Usage: Select option 4, enter the ID Number, and the program will provide credit risk details.
 
-2. **MainStructs.cpp**: Defines the main data structures.
+#### 6. **CurrencyConversion**
+- Functionality: Converts currency between USD and BTC.
+- Usage: Select option 6, choose the conversion type, and input the amount to perform the conversion.
 
-3. **Validator.cpp**: Implements validation operations.
+#### 7. **Exit**
+- Functionality: Terminates the program.
+- Usage: Select option 7 to exit the program.
 
-4. **ClientOperations.cpp**: Implements user-related operations, including `createNewClient`, `calculateCreditRisk`, `listAllUsers`, and `withdrawDeposit`.
+### Menu Operation
 
-5. **CurrencyConversion.cpp**: Implements currency conversion operations.
-
-6. **SearchForIdNumber.cpp**: Implements the user search functionality based on a specific ID Number.
+The program operates through a user-friendly menu interface, where users can choose from various options (1-7). Each option corresponds to a specific function, allowing users to interact with the banking system efficiently.
 
 ## Usage
 
 1. Compile and run the program by compiling the `Main.cpp` file.
-
-2. Choose the desired operation from the menu to perform various banking tasks.
+2. Follow the on-screen menu prompts to perform banking operations.
 
 ---
 
-Feel free to customize and expand this README.md according to your needs!
+Feel free to explore and test the program using the default data and functionalities provided!
