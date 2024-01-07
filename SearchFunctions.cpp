@@ -17,6 +17,7 @@ void searchForIdNumber(const std::vector<KisiselBilgiler>& kisiler,
             std::cout << "Name: " << kisi.ad << std::endl;
             std::cout << "Surname: " << kisi.soyad << std::endl;
             std::cout << "ID Number:  " << kisi.tcKimlik << std::endl;
+            std::cout << "Signature Location: " << kisi.signature << std::endl;
             break;
         }
     }

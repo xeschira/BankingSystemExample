@@ -6,6 +6,6 @@
 #include <vector>
 #include "MainStructs.h"  // Include the header containing your main structures
 
-void CreateNewClient(std::vector<KisiselBilgiler>& kisiler, std::vector<HesapBilgileri>& hesaplar);
+void CreateNewClient(std::vector<KisiselBilgiler>& kisiler, std::vector<HesapBilgileri>& hesaplar,std::vector<Sube>& sube);
 
 #endif // CLIENT_OPERATIONS_H

@@ -21,6 +21,11 @@ void listAllUsers(const std::vector<KisiselBilgiler>& kisiler) {
 
 
 int main() {
+    std::vector<Sube> subeler = {
+            {"Kaliforniya Merkez Sube","Merkez Mah. JFK Sokak No:1/A", "+1 009 345 66 78", "001"},
+            {"Dijital Sube","http://www.cokguvenlibibanka.xyz", "+1 435 543 12 47", "002"}
+    };
+
     std::vector<KisiselBilgiler> kisiler = {
             {"Steve", "Jobs", "1234567890"},
             {"Linus", "Torvalds", "9876543210"}
@@ -85,7 +90,7 @@ int main() {
                 break;
             }
             case 5: {
-                CreateNewClient(kisiler, hesaplar);
+                CreateNewClient(kisiler, hesaplar, subeler);
                 break;
             }
             case 6: {

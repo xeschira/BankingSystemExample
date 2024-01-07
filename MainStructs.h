@@ -7,6 +7,7 @@
 
 class Sube {
 public:
+    std::string isim;
     std::string adres;
     std::string telefon;
     std::string branch_id;
@@ -17,6 +18,7 @@ public:
     std::string ad;
     std::string soyad;
     std::string tcKimlik;
+    std::string signature;
 };
 
 class HesapBilgileri {
